@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:gilroy;
+}
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+section{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+}
+.part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+nav h1{
+    font-size: 35px;
+    gap: 9px;
+}
+nav h1 i{
+    rotate: 45deg;
+    display: inline-block;
+}
+nav h4{
+    font-size: 23px;
+    font-weight: 500;
+}
+nav button{
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 1px solid #000;
+    background-color: transparent;
+}
+.center{
+    padding: 40px;
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+.center-part1{
+    margin: 30px;
+    margin-bottom: 20px;
+    height: 100%;
+    width: 44%;
+}
+.center-part2{
+    height: 100%;
+    width: 76%;
+}
+.center-part1{
+    line-height: 1.2;
+    font-size: 30px;
+    font-family: serif;
+}
+.center-part1 h1{
+    font-size: 45px;
+    line-height: 1.6;
+}
+.center-part1 p{
+    width: 95%;
+}
+.center-part1 button{
+    background-color: #000;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 22px 40px;
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+}
+.center-part2 img{
+    height: 200%;
+}
+.section1bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:30px;
+    margin-top: 26%;
+    padding: 120px 30px;
+}
+.section1bottom img{
+    height: 40px;
+}
+.section2 .services{
+    padding: 25px 68px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 35px;
+    margin-top: 23px;
+}
+.services h3{
+    background-color: #9AE975;
+    font-weight: 500;
+    padding: 5px 10px 3px 10px;
+    border-radius: 5px;
+    font-size: 60px;
+}
+.services p{
+    width: 40%;
+    font-weight: 500;
+    font-size: 20px;
+}
+.container{
+    min-height: 80vh;
+    width: 100%;
+    padding: 40px 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.elem{
+    flex-shrink: 0;
+    height: 250px;
+    width: 47%;
+    border-radius: 50px;
+    border: 3px solid black;
+    box-shadow: 0px 12px 0px black;
+    padding: 50px;
+    display: flex;
+}
+.elem-part1{
+    height: 100%;
+    width: 50%;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.elem-part2{
+    height: 100%;
+    width: 50%;
+}
+.elem-part2 img{
+    height: 100%;
+}
+.elem-part1 h2{
+    font-weight: 800;
+    width: 80%;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #9AE975;
+}
+.elem-part1 h4{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 500;
+    font-size: 21px;
+}
+.elem-part1 h4 i{
+   
+    padding: 20px;
+    background-color: #000;
+    color: wheat;
+    border-radius: 50%;
+    gap: 20px;
+}
+.black{
+    background-color:black;
+}
+.elem-part3{
+    height: 100%;
+    width: 50%;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.elem-part4{
+    height: 100%;
+    width: 50%;
+}
+.elem-part4 img{
+    height: 100%;
+}
+.elem-part3 h2{
+    font-weight: 800;
+    width: 80%;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fff;
+}
+.elem-part3 h4{
+    color: white;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 500;
+    font-size: 21px;
+}
+.elem-part1 h4 i{
+   
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+    gap: 20px;
+}
